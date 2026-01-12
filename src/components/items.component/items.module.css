@@ -1,0 +1,17 @@
+.itemsGrid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 30px;
+}
+
+@media (max-width: 1200px) and (min-width: 800px) {
+  .itemsGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 799px) {
+  .itemsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

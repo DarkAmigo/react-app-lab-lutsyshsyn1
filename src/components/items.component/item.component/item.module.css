@@ -1,0 +1,56 @@
+.card {
+  font-family: Arial, sans-serif;
+}
+
+.imageWrapper {
+  position: relative;
+  border: 1px solid #ddd;
+  padding: 15px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imageWrapper img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* SALE badge */
+.sale {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: var(--saleBgcolor);
+  color: var(--saleTextColor);
+  padding: 6px 14px;
+  font-size: 12px;
+  font-weight: bold;
+  transform: rotate(45deg) translate(22px, -22px);
+}
+
+/* Title */
+.title {
+  font-size: 14px;
+  margin: 10px 0 5px;
+}
+
+/* Price block */
+.price {
+  font-size: 16px;
+}
+
+/* Sale price */
+.salePrice {
+  color: var(--salePriceColor);
+  margin-right: 8px;
+  font-weight: bold;
+}
+
+/* Old price */
+.oldPrice {
+  text-decoration: line-through;
+  color: #999;
+  font-size: 14px;
+}
