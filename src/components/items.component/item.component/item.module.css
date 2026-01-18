@@ -17,7 +17,6 @@
   max-height: 100%;
 }
 
-/* SALE badge */
 .sale {
   position: absolute;
   top: 0;
@@ -30,25 +29,21 @@
   transform: rotate(45deg) translate(22px, -22px);
 }
 
-/* Title */
 .title {
   font-size: 14px;
   margin: 10px 0 5px;
 }
 
-/* Price block */
 .price {
   font-size: 16px;
 }
 
-/* Sale price */
 .salePrice {
   color: var(--salePriceColor);
   margin-right: 8px;
   font-weight: bold;
 }
 
-/* Old price */
 .oldPrice {
   text-decoration: line-through;
   color: #999;
